@@ -1,1 +1,11 @@
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+python manage.py startapp contact	お問い合わせフォーム用のアプリケーションを作成した。	🟢 完了
+git init	プロジェクトをGitで管理するためのリポジトリを初期化（.gitフォルダ作成）した。	🟢 完了
+git config --global user.name "..."	コミット（履歴）の作成者をユーザー名として設定した。	🟢 完了
+git config --global user.email "..."	コミット（履歴）の作成者をメールアドレスとして設定した。	🟢 完了
+git add .	変更したファイルや新しいファイルをGitの次の履歴候補に追加（ステージング）した。	🟢 完了
+git commit -m "..."	ステージングされたファイルの内容をローカルの履歴として正式に記録した。	🟢 完了
+git remote add origin ...	GitHub上のリポジトリを「origin」という名前で連携先として登録した。	🟢 完了
+git branch -M main	メインで使うブランチの名前を「main」に設定した。	🟢 完了
+git push -u origin main	ローカルの履歴をGitHubのサーバーに**アップロード
